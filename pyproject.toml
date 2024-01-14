@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "sales-data-analysis"
+version = "0.1.0"
+description = "python coding evaluation"
+authors = ["LianYun-Li <lee64690502@gmail.com>"]
+readme = "README.md"
+packages = [{include = "sales_data_analysis"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^2.1.4"
+numpy = "^1.26.3"
+scipy = "^1.11.4"
+plotly = "^5.18.0"
+nbformat = "^5.9.2"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.28.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
