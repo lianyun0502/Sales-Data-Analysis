@@ -31,7 +31,7 @@ To run a GitHub notebook in Google Colab, follow these steps:
 
 3. In the "Enter a GitHub URL or search by organization or user" box, paste the URL of the GitHub notebook `https://github.com/lianyun0502/Sales-Data-Analysis.git`.
 
-4. Select the repository `Sales-Data-Analysis` and branch `Colab` from the dropdown menus, then choose the notebook `DataAnalysis.ipynb` to open.
+4. Select the repository `Sales-Data-Analysis` and branch `Colab` from the dropdown menus, then choose the notebook `DataAnalysis.ipynb` to open.![](./colab.png)
 
 5. You can now run the notebook in Google Colab by clicking on the "Runtime" menu and then "Run all".
 
